@@ -1,7 +1,7 @@
 <script>
 	import Editor from './Editor.svelte'
 
-	let value = `console.log('hello')`
+	let value = `console.log('test')`
 </script>
 
 <Editor bind:value />

@@ -19,7 +19,9 @@
         const editor = monaco.editor.create(container, {
             value,
             language: 'javascript',
-
+            minimap: {
+                enabled: false
+            }
         });
 
         editor.onDidChangeModelContent(() => {
