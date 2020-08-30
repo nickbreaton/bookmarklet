@@ -1,0 +1,20 @@
+{
+  "name": "bookmarklet",
+  "dependencies": {
+    "svelte": "^3.24.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --progress"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "monaco-editor": "^0.20.0",
+    "style-loader": "^1.2.1",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
